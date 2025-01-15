@@ -1,0 +1,47 @@
+.logo {
+  width: 25%;
+  height: 25%;
+  margin-left: 100px;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 50%; /* Adjust width for smaller screens */
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 60%; /* Further adjust for very small screens */
+    margin-left: 5px;
+  }
+}
+
+.nav-link {
+  font-family: poppins;
+  font-size: 22px !important;
+  font-weight: lighter !important;
+  color: black !important;
+}
+
+.navbar-collapse {
+  justify-content: end;
+  margin-right: 100px; /* Centers the nav links horizontally */
+}
+.navbar-nav {
+  gap: 25px;
+}
+
+/* Slider */
+.carousel-item img{
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+    
+}   
+@media (max-width: 576px) {
+    .carousel-item img {
+      height:50vh;
+      
+    }
+  }
